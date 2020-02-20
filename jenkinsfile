@@ -1,0 +1,9 @@
+node{
+	stage('Compile'){
+		gcc -c $WORKSPACE\\*.c 
+	}
+
+	stage('Testing'){
+
+	}
+}
